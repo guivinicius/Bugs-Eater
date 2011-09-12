@@ -4,5 +4,7 @@ class Ticket
 
   field :name
   field :description
+
+  validates :name, :description, :presence => true
   
 end

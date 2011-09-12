@@ -1,0 +1,4723 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>Code coverage for Bugseater</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src='./assets/0.4.5/jquery-1.4.2.min.js' type='text/javascript'></script>
+    <script src='./assets/0.4.5/jquery.dataTables.min.js' type='text/javascript'></script>   
+    <script src='./assets/0.4.5/fancybox/jquery.fancybox-1.3.1.pack.js' type='text/javascript'></script>   
+    <script src='./assets/0.4.5/jquery.timeago.js' type='text/javascript'></script>   
+    <script src='./assets/0.4.5/jquery.url.js' type='text/javascript'></script>   
+    <script src='./assets/0.4.5/app.js' type='text/javascript'></script>    
+    <link href='./assets/0.4.5/stylesheet.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link href='./assets/0.4.5/fancybox/jquery.fancybox-1.3.1.css' media='screen, projection, print' rel='stylesheet' type='text/css'>
+    <link href='./assets/0.4.5/smoothness/jquery-ui-1.8.4.custom.css' media='screen, projection, print' rel='stylesheet' type='text/css'>    
+    <link rel="shortcut icon" type="image/png" href="./assets/0.4.5/favicon.png" />
+    <link rel="icon" type="image/png" href="./assets/0.4.5/favicon.png" />
+  </head>
+  
+  <body>
+    <div id="loading">
+      <img src="./assets/0.4.5/loading.gif" alt="loading"/>
+    </div>
+    <div id="wrapper" style="display:none;">
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-09-12T19:01:07-03:00">2011-09-12T19:01:07-03:00</abbr></div>
+      <ul class="group_tabs"></ul>
+
+      <div id="content">
+        <div class="file_list_container" id="AllFiles">
+  <h2>
+    All Files
+    (<span class="green">100.0%</span>)
+  </h2>
+  <a name="AllFiles"></a>
+  <div>
+    <b>19</b> files in total.
+    <b>114</b> relevant lines. 
+    <span class="green"><b>114</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
+  </div>
+  <table class="file_list">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>% covered</th>
+        <th>Lines</th>
+        <th>Relevant Lines</th>
+        <th>Lines covered</th>
+        <th>Lines missed</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><a href="#de1e0f75e264ca493d459d65e4c7f86045540417" class="src_link" title="./app/controllers/application_controller.rb">./app/controllers/application_controller.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#4e65a2f81b6db21eb3ea4c9a68c083135fee60d9" class="src_link" title="./app/controllers/tickets_controller.rb">./app/controllers/tickets_controller.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>83</td>
+        <td>40</td>
+        <td>40</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#9187fef72ce4202cec719ab615468db363580647" class="src_link" title="./app/helpers/application_helper.rb">./app/helpers/application_helper.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#d78149e672116978657658fdcfc1208b5606db0d" class="src_link" title="./app/helpers/tickets_helper.rb">./app/helpers/tickets_helper.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#abb6c76c38535be523e4a9f6ad76b3f893599832" class="src_link" title="./app/models/ticket.rb">./app/models/ticket.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>10</td>
+        <td>6</td>
+        <td>6</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#e121997db64dbed5298c1060ce6ab9964b637fb7" class="src_link" title="./config/application.rb">./config/application.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>54</td>
+        <td>13</td>
+        <td>13</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#7d858fc30e675f509d946e7578fda51b51a8bca1" class="src_link" title="./config/boot.rb">./config/boot.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>6</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#d4733331be9fbb4c97f953d28c4f641d31334ef3" class="src_link" title="./config/environment.rb">./config/environment.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>5</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#b516e28c46b7814b3b749034ea2f4ccffcd4f2de" class="src_link" title="./config/environments/test.rb">./config/environments/test.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>42</td>
+        <td>12</td>
+        <td>12</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#ec761f902d280b76ea62d70bc64cf6c2f0dd3083" class="src_link" title="./config/initializers/backtrace_silencers.rb">./config/initializers/backtrace_silencers.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>7</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#4788d3635e28ad4a172359182f69c7f62741eced" class="src_link" title="./config/initializers/inflections.rb">./config/initializers/inflections.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>10</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#56bc22df4ead93ea6c3b0cc41428771a2ec1c71f" class="src_link" title="./config/initializers/mime_types.rb">./config/initializers/mime_types.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>5</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#c8171f65c0a1745578757498e03d10c023bd46eb" class="src_link" title="./config/initializers/secret_token.rb">./config/initializers/secret_token.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>7</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#d0ce7738cbe1a45444553abcf6820a50cd5f20b9" class="src_link" title="./config/initializers/session_store.rb">./config/initializers/session_store.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>8</td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#0b64ff4860802a391e508b43dcb468a931bb8aca" class="src_link" title="./config/initializers/wrap_parameters.rb">./config/initializers/wrap_parameters.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>10</td>
+        <td>2</td>
+        <td>2</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#e0bf9d690b76a2b48b5afb3fb9fcc8044b3aab8f" class="src_link" title="./config/routes.rb">./config/routes.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>5</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#6245c44a7afc395ceda8691053ef16b321a8bf67" class="src_link" title="./spec/models/ticket_spec.rb">./spec/models/ticket_spec.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>9</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#e137c06bde6f522799e9a2c1a24885173b05e7e3" class="src_link" title="./spec/requests/tickets_spec.rb">./spec/requests/tickets_spec.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>11</td>
+        <td>6</td>
+        <td>6</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#92dcd3875fa31abd09ab146af1d09af5f3b52789" class="src_link" title="./spec/routing/tickets_routing_spec.rb">./spec/routing/tickets_routing_spec.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>35</td>
+        <td>17</td>
+        <td>17</td>
+        <td>0</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+        
+      </div>
+    
+      <div id="footer">
+        Generated by <a href="http://github.com/colszowka/simplecov">simplecov</a> v0.4.2 
+        and simplecov-html v0.4.5<br/>
+        using RSpec
+      </div>
+    
+      <div class="source_files">
+      
+        <div class="source_table" id="de1e0f75e264ca493d459d65e4c7f86045540417">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/controllers/application_controller.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>class ApplicationController &lt; ActionController::Base</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  protect_from_forgery</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="4e65a2f81b6db21eb3ea4c9a68c083135fee60d9">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/controllers/tickets_controller.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>class TicketsController &lt; ApplicationController</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets.json</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>  def index</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>    @tickets = Ticket.all</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>      format.html # index.html.erb</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>      format.json { render json: @tickets }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>11</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>12</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>13</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets/1</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>14</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets/1.json</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>15</pre>
+      </td>
+      <td>
+        <pre>  def show</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>16</pre>
+      </td>
+      <td>
+        <pre>    @ticket = Ticket.find(params[:id])</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>17</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>18</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>19</pre>
+      </td>
+      <td>
+        <pre>      format.html # show.html.erb</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>20</pre>
+      </td>
+      <td>
+        <pre>      format.json { render json: @ticket }</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>21</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>22</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>23</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>24</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets/new</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>25</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets/new.json</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>26</pre>
+      </td>
+      <td>
+        <pre>  def new</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>27</pre>
+      </td>
+      <td>
+        <pre>    @ticket = Ticket.new</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>28</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>29</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>30</pre>
+      </td>
+      <td>
+        <pre>      format.html # new.html.erb</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>31</pre>
+      </td>
+      <td>
+        <pre>      format.json { render json: @ticket }</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>32</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>33</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>34</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>35</pre>
+      </td>
+      <td>
+        <pre>  # GET /tickets/1/edit</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>36</pre>
+      </td>
+      <td>
+        <pre>  def edit</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>37</pre>
+      </td>
+      <td>
+        <pre>    @ticket = Ticket.find(params[:id])</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>38</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>39</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>40</pre>
+      </td>
+      <td>
+        <pre>  # POST /tickets</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>41</pre>
+      </td>
+      <td>
+        <pre>  # POST /tickets.json</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>42</pre>
+      </td>
+      <td>
+        <pre>  def create</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="5">
+      <td class="line_number">
+        <pre>43</pre>
+      </td>
+      <td>
+        <pre>    @ticket = Ticket.new(params[:ticket])</pre>
+      </td>
+      <td class="hits">
+        5
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>44</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="5">
+      <td class="line_number">
+        <pre>45</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        5
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="5">
+      <td class="line_number">
+        <pre>46</pre>
+      </td>
+      <td>
+        <pre>      if @ticket.save</pre>
+      </td>
+      <td class="hits">
+        5
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="6">
+      <td class="line_number">
+        <pre>47</pre>
+      </td>
+      <td>
+        <pre>        format.html { redirect_to @ticket, notice: 'Ticket was successfully created.' }</pre>
+      </td>
+      <td class="hits">
+        6
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="3">
+      <td class="line_number">
+        <pre>48</pre>
+      </td>
+      <td>
+        <pre>        format.json { render json: @ticket, status: :created, location: @ticket }</pre>
+      </td>
+      <td class="hits">
+        3
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>49</pre>
+      </td>
+      <td>
+        <pre>      else</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="4">
+      <td class="line_number">
+        <pre>50</pre>
+      </td>
+      <td>
+        <pre>        format.html { render action: &quot;new&quot; }</pre>
+      </td>
+      <td class="hits">
+        4
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>51</pre>
+      </td>
+      <td>
+        <pre>        format.json { render json: @ticket.errors, status: :unprocessable_entity }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>52</pre>
+      </td>
+      <td>
+        <pre>      end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>53</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>54</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>55</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>56</pre>
+      </td>
+      <td>
+        <pre>  # PUT /tickets/1</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>57</pre>
+      </td>
+      <td>
+        <pre>  # PUT /tickets/1.json</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>58</pre>
+      </td>
+      <td>
+        <pre>  def update</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="5">
+      <td class="line_number">
+        <pre>59</pre>
+      </td>
+      <td>
+        <pre>    @ticket = Ticket.find(params[:id])</pre>
+      </td>
+      <td class="hits">
+        5
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>60</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="5">
+      <td class="line_number">
+        <pre>61</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        5
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="5">
+      <td class="line_number">
+        <pre>62</pre>
+      </td>
+      <td>
+        <pre>      if @ticket.update_attributes(params[:ticket])</pre>
+      </td>
+      <td class="hits">
+        5
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="4">
+      <td class="line_number">
+        <pre>63</pre>
+      </td>
+      <td>
+        <pre>        format.html { redirect_to @ticket, notice: 'Ticket was successfully updated.' }</pre>
+      </td>
+      <td class="hits">
+        4
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>64</pre>
+      </td>
+      <td>
+        <pre>        format.json { head :ok }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>65</pre>
+      </td>
+      <td>
+        <pre>      else</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="6">
+      <td class="line_number">
+        <pre>66</pre>
+      </td>
+      <td>
+        <pre>        format.html { render action: &quot;edit&quot; }</pre>
+      </td>
+      <td class="hits">
+        6
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="3">
+      <td class="line_number">
+        <pre>67</pre>
+      </td>
+      <td>
+        <pre>        format.json { render json: @ticket.errors, status: :unprocessable_entity }</pre>
+      </td>
+      <td class="hits">
+        3
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>68</pre>
+      </td>
+      <td>
+        <pre>      end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>69</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>70</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>71</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>72</pre>
+      </td>
+      <td>
+        <pre>  # DELETE /tickets/1</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>73</pre>
+      </td>
+      <td>
+        <pre>  # DELETE /tickets/1.json</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>74</pre>
+      </td>
+      <td>
+        <pre>  def destroy</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>75</pre>
+      </td>
+      <td>
+        <pre>    @ticket = Ticket.find(params[:id])</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>76</pre>
+      </td>
+      <td>
+        <pre>    @ticket.destroy</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>77</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>78</pre>
+      </td>
+      <td>
+        <pre>    respond_to do |format|</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="4">
+      <td class="line_number">
+        <pre>79</pre>
+      </td>
+      <td>
+        <pre>      format.html { redirect_to tickets_url }</pre>
+      </td>
+      <td class="hits">
+        4
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>80</pre>
+      </td>
+      <td>
+        <pre>      format.json { head :ok }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>81</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>82</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>83</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="9187fef72ce4202cec719ab615468db363580647">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/helpers/application_helper.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>module ApplicationHelper</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="d78149e672116978657658fdcfc1208b5606db0d">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/helpers/tickets_helper.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>module TicketsHelper</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="abb6c76c38535be523e4a9f6ad76b3f893599832">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/models/ticket.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>class Ticket</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  include Mongoid::Document</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>  include Mongoid::Timestamps</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>  field :name</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>  field :description</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>  validates :name, :description, :presence =&gt; true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>  </pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="e121997db64dbed5298c1060ce6ab9964b637fb7">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/application.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>require File.expand_path('../boot', __FILE__)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># Pick the frameworks you want:</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># require &quot;active_record/railtie&quot;</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>require &quot;action_controller/railtie&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>require &quot;action_mailer/railtie&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>require &quot;active_resource/railtie&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>require &quot;sprockets/railtie&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre># require &quot;rails/test_unit/railtie&quot;</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>11</pre>
+      </td>
+      <td>
+        <pre>if defined?(Bundler)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>12</pre>
+      </td>
+      <td>
+        <pre>  # If you precompile assets before deploying to production, use this line</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>13</pre>
+      </td>
+      <td>
+        <pre>  Bundler.require *Rails.groups(:assets =&gt; %w(development test))</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>14</pre>
+      </td>
+      <td>
+        <pre>  # If you want your assets lazily compiled in production, use this line</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>15</pre>
+      </td>
+      <td>
+        <pre>  # Bundler.require(:default, :assets, Rails.env)</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>16</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>17</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>18</pre>
+      </td>
+      <td>
+        <pre>module Bugseater</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>19</pre>
+      </td>
+      <td>
+        <pre>  class Application &lt; Rails::Application</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>20</pre>
+      </td>
+      <td>
+        <pre>    # Settings in config/environments/* take precedence over those specified here.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>21</pre>
+      </td>
+      <td>
+        <pre>    # Application configuration should go into files in config/initializers</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>22</pre>
+      </td>
+      <td>
+        <pre>    # -- all .rb files in that directory are automatically loaded.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>23</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>24</pre>
+      </td>
+      <td>
+        <pre>    # Custom directories with classes and modules you want to be autoloadable.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>25</pre>
+      </td>
+      <td>
+        <pre>    # config.autoload_paths += %W(#{config.root}/extras)</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>26</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>27</pre>
+      </td>
+      <td>
+        <pre>    # Only load the plugins named here, in the order given (default is alphabetical).</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>28</pre>
+      </td>
+      <td>
+        <pre>    # :all can be used as a placeholder for all plugins not explicitly named.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>29</pre>
+      </td>
+      <td>
+        <pre>    # config.plugins = [ :exception_notification, :ssl_requirement, :all ]</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>30</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>31</pre>
+      </td>
+      <td>
+        <pre>    # Activate observers that should always be running.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>32</pre>
+      </td>
+      <td>
+        <pre>    # config.active_record.observers = :cacher, :garbage_collector, :forum_observer</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>33</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>34</pre>
+      </td>
+      <td>
+        <pre>    # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>35</pre>
+      </td>
+      <td>
+        <pre>    # Run &quot;rake -D time&quot; for a list of tasks for finding time zone names. Default is UTC.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>36</pre>
+      </td>
+      <td>
+        <pre>    # config.time_zone = 'Central Time (US &amp; Canada)'</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>37</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>38</pre>
+      </td>
+      <td>
+        <pre>    # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>39</pre>
+      </td>
+      <td>
+        <pre>    # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>40</pre>
+      </td>
+      <td>
+        <pre>    # config.i18n.default_locale = :de</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>41</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>42</pre>
+      </td>
+      <td>
+        <pre>    # Configure the default encoding used in templates for Ruby 1.9.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>43</pre>
+      </td>
+      <td>
+        <pre>    config.encoding = &quot;utf-8&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>44</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>45</pre>
+      </td>
+      <td>
+        <pre>    # Configure sensitive parameters which will be filtered from the log file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>46</pre>
+      </td>
+      <td>
+        <pre>    config.filter_parameters += [:password]</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>47</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>48</pre>
+      </td>
+      <td>
+        <pre>    # Enable the asset pipeline</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>49</pre>
+      </td>
+      <td>
+        <pre>    config.assets.enabled = true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>50</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>51</pre>
+      </td>
+      <td>
+        <pre>    # Version of your assets, change this if you want to expire all your assets</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>52</pre>
+      </td>
+      <td>
+        <pre>    config.assets.version = '1.0'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>53</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>54</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="7d858fc30e675f509d946e7578fda51b51a8bca1">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/boot.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>require 'rubygems'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># Set up gems listed in the Gemfile.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="d4733331be9fbb4c97f953d28c4f641d31334ef3">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/environment.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Load the rails application</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>require File.expand_path('../application', __FILE__)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># Initialize the rails application</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>Bugseater::Application.initialize!</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="b516e28c46b7814b3b749034ea2f4ccffcd4f2de">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/environments/test.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>Bugseater::Application.configure do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  # Settings specified here will take precedence over those in config/application.rb</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>  # The test environment is used exclusively to run your application's</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>  # test suite.  You never need to work with it otherwise.  Remember that</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>  # your test database is &quot;scratch space&quot; for the test suite and is wiped</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>  # and recreated between test runs.  Don't rely on the data there!</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>  config.cache_classes = true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre>  # Configure static asset server for tests with Cache-Control for performance</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>11</pre>
+      </td>
+      <td>
+        <pre>  config.serve_static_assets = true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>12</pre>
+      </td>
+      <td>
+        <pre>  config.static_cache_control = &quot;public, max-age=3600&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>13</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>14</pre>
+      </td>
+      <td>
+        <pre>  # Log error messages when you accidentally call methods on nil</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>15</pre>
+      </td>
+      <td>
+        <pre>  config.whiny_nils = true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>16</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>17</pre>
+      </td>
+      <td>
+        <pre>  # Show full error reports and disable caching</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>18</pre>
+      </td>
+      <td>
+        <pre>  config.consider_all_requests_local       = true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>19</pre>
+      </td>
+      <td>
+        <pre>  config.action_controller.perform_caching = false</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>20</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>21</pre>
+      </td>
+      <td>
+        <pre>  # Raise exceptions instead of rendering exception templates</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>22</pre>
+      </td>
+      <td>
+        <pre>  config.action_dispatch.show_exceptions = false</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>23</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>24</pre>
+      </td>
+      <td>
+        <pre>  # Disable request forgery protection in test environment</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>25</pre>
+      </td>
+      <td>
+        <pre>  config.action_controller.allow_forgery_protection    = false</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>26</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>27</pre>
+      </td>
+      <td>
+        <pre>  # Tell Action Mailer not to deliver emails to the real world.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>28</pre>
+      </td>
+      <td>
+        <pre>  # The :test delivery method accumulates sent emails in the</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>29</pre>
+      </td>
+      <td>
+        <pre>  # ActionMailer::Base.deliveries array.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>30</pre>
+      </td>
+      <td>
+        <pre>  config.action_mailer.delivery_method = :test</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>31</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>32</pre>
+      </td>
+      <td>
+        <pre>  # Use SQL instead of Active Record's schema dumper when creating the test database.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>33</pre>
+      </td>
+      <td>
+        <pre>  # This is necessary if your schema can't be completely dumped by the schema dumper,</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>34</pre>
+      </td>
+      <td>
+        <pre>  # like if you have constraints or database-specific column types</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>35</pre>
+      </td>
+      <td>
+        <pre>  # config.active_record.schema_format = :sql</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>36</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>37</pre>
+      </td>
+      <td>
+        <pre>  # Print deprecation notices to the stderr</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>38</pre>
+      </td>
+      <td>
+        <pre>  config.active_support.deprecation = :stderr</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>39</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>40</pre>
+      </td>
+      <td>
+        <pre>  # Allow pass debug_assets=true as a query parameter to load pages with unpackaged assets</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>41</pre>
+      </td>
+      <td>
+        <pre>  config.assets.allow_debugging = true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>42</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="ec761f902d280b76ea62d70bc64cf6c2f0dd3083">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/initializers/backtrace_silencers.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Be sure to restart your server when you modify this file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># You can add backtrace silencers for libraries that you're using but don't wish to see in your backtraces.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># Rails.backtrace_cleaner.add_silencer { |line| line =~ /my_noisy_library/ }</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre># You can also remove all the silencers if you're trying to debug a problem that might stem from framework code.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre># Rails.backtrace_cleaner.remove_silencers!</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="4788d3635e28ad4a172359182f69c7f62741eced">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/initializers/inflections.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Be sure to restart your server when you modify this file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># Add new inflection rules using the following format</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># (all these examples are active by default):</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre># ActiveSupport::Inflector.inflections do |inflect|</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>#   inflect.plural /^(ox)$/i, '\1en'</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>#   inflect.singular /^(ox)en/i, '\1'</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>#   inflect.irregular 'person', 'people'</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>#   inflect.uncountable %w( fish sheep )</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre># end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="56bc22df4ead93ea6c3b0cc41428771a2ec1c71f">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/initializers/mime_types.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Be sure to restart your server when you modify this file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># Add new mime types for use in respond_to blocks:</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># Mime::Type.register &quot;text/richtext&quot;, :rtf</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre># Mime::Type.register_alias &quot;text/html&quot;, :iphone</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="c8171f65c0a1745578757498e03d10c023bd46eb">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/initializers/secret_token.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Be sure to restart your server when you modify this file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># Your secret key for verifying the integrity of signed cookies.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># If you change this key, all old signed cookies will become invalid!</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre># Make sure the secret is at least 30 characters and all random,</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre># no regular words or you'll be exposed to dictionary attacks.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>Bugseater::Application.config.secret_token = '966c5c61718a7ee83d9af1956cc5220679e544990a0cf44043b449e803727760c9df6f15398e6763b0427b09be0a065a273f11cd02b9b338614c081c8f0e7d86'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="d0ce7738cbe1a45444553abcf6820a50cd5f20b9">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/initializers/session_store.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Be sure to restart your server when you modify this file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>Bugseater::Application.config.session_store :cookie_store, key: '_bugseater_session'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre># Use the database for sessions instead of the cookie-based default,</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre># which shouldn't be used to store highly confidential information</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre># (create the session table with &quot;rails generate session_migration&quot;)</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre># Bugseater::Application.config.session_store :active_record_store</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="0b64ff4860802a391e508b43dcb468a931bb8aca">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/initializers/wrap_parameters.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre># Be sure to restart your server when you modify this file.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>#</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre># This file contains settings for ActionController::ParamsWrapper which</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre># is enabled by default.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre># Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>ActiveSupport.on_load(:action_controller) do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>  wrap_parameters format: [:json]</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="e0bf9d690b76a2b48b5afb3fb9fcc8044b3aab8f">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./config/routes.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>Bugseater::Application.routes.draw do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  resources :tickets</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>  root :to =&gt; 'tickets#index'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="6245c44a7afc395ceda8691053ef16b321a8bf67">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./spec/models/ticket_spec.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>require 'spec_helper'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>describe Ticket do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>  it { should validate_presence_of(:name) }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>  it { should validate_presence_of(:description) }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>  # it { should belong_to(:user) }</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="e137c06bde6f522799e9a2c1a24885173b05e7e3">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./spec/requests/tickets_spec.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>require 'spec_helper'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>describe &quot;Tickets&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>  describe &quot;GET /tickets&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>    it &quot;works! (now write some real specs)&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>      get tickets_path</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>      response.status.should be(200)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>11</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="92dcd3875fa31abd09ab146af1d09af5f3b52789">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./spec/routing/tickets_routing_spec.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>require &quot;spec_helper&quot;</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>describe TicketsController do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>  describe &quot;routing&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #index&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>      get(&quot;/tickets&quot;).should route_to(&quot;tickets#index&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #new&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>11</pre>
+      </td>
+      <td>
+        <pre>      get(&quot;/tickets/new&quot;).should route_to(&quot;tickets#new&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>12</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>13</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>14</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #show&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>15</pre>
+      </td>
+      <td>
+        <pre>      get(&quot;/tickets/1&quot;).should route_to(&quot;tickets#show&quot;, :id =&gt; &quot;1&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>16</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>17</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>18</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #edit&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>19</pre>
+      </td>
+      <td>
+        <pre>      get(&quot;/tickets/1/edit&quot;).should route_to(&quot;tickets#edit&quot;, :id =&gt; &quot;1&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>20</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>21</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>22</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #create&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>23</pre>
+      </td>
+      <td>
+        <pre>      post(&quot;/tickets&quot;).should route_to(&quot;tickets#create&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>24</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>25</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>26</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #update&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>27</pre>
+      </td>
+      <td>
+        <pre>      put(&quot;/tickets/1&quot;).should route_to(&quot;tickets#update&quot;, :id =&gt; &quot;1&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>28</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>29</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>30</pre>
+      </td>
+      <td>
+        <pre>    it &quot;routes to #destroy&quot; do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>31</pre>
+      </td>
+      <td>
+        <pre>      delete(&quot;/tickets/1&quot;).should route_to(&quot;tickets#destroy&quot;, :id =&gt; &quot;1&quot;)</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>32</pre>
+      </td>
+      <td>
+        <pre>    end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>33</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>34</pre>
+      </td>
+      <td>
+        <pre>  end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>35</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+      </div>
+    </div>
+  </body>
+</html>

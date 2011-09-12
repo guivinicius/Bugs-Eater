@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe TicketsController do
   def valid_attributes
-    { :name => "BUG maligno do IE6", :description => "O maior bug do mundo é o próprio IE em geral."}
+    { :name => "BUG maligno do IE6", :description => "O maior bug do mundo e o proprio IE." }
   end
 
   describe "GET index" do
