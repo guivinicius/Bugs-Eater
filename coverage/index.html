@@ -21,7 +21,7 @@
       <img src="./assets/0.4.5/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2011-09-12T19:01:07-03:00">2011-09-12T19:01:07-03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-09-12T21:44:03-03:00">2011-09-12T21:44:03-03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,9 +32,9 @@
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>19</b> files in total.
-    <b>114</b> relevant lines. 
-    <span class="green"><b>114</b> lines covered</span> and
+    <b>21</b> files in total.
+    <b>122</b> relevant lines. 
+    <span class="green"><b>122</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -83,6 +83,15 @@
         <td>2</td>
         <td>1</td>
         <td>1</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#ac30df3bc3694db49962f800439a4f19d75c137a" class="src_link" title="./app/models/comment.rb">./app/models/comment.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>9</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
       </tr>
       
@@ -189,6 +198,15 @@
         <td><a href="#e0bf9d690b76a2b48b5afb3fb9fcc8044b3aab8f" class="src_link" title="./config/routes.rb">./config/routes.rb</a></td>
         <td class="green">100.0 %</td>
         <td>5</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+      </tr>
+      
+      <tr>
+        <td><a href="#0f29ee8f0f9e5a1de22d57033189f940193a5d81" class="src_link" title="./spec/models/comment_spec.rb">./spec/models/comment_spec.rb</a></td>
+        <td class="green">100.0 %</td>
+        <td>6</td>
         <td>3</td>
         <td>3</td>
         <td>0</td>
@@ -1477,6 +1495,144 @@
     <tr class="never" >
       <td class="line_number">
         <pre>2</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="ac30df3bc3694db49962f800439a4f19d75c137a">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./app/models/comment.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>class Comment</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre>  include Mongoid::Document</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>  include Mongoid::Timestamps</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>  field :body</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>  validates :body, :presence =&gt; true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
       </td>
       <td>
         <pre>end</pre>
@@ -3926,6 +4082,105 @@
     <tr class="never" >
       <td class="line_number">
         <pre>5</pre>
+      </td>
+      <td>
+        <pre>end</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    </tbody>
+  </table>
+</div>
+      
+        <div class="source_table" id="0f29ee8f0f9e5a1de22d57033189f940193a5d81">
+  <table>
+    <thead>
+    <tr>
+      <td colspan="3">
+        <h3>./spec/models/comment_spec.rb</h3>
+        <h4><span class="green">100.0 %</span> covered</h4>
+      </td>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th></th>
+      <th>Hits</th>
+    </tr>
+    </thead>
+    <tbody>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>1</pre>
+      </td>
+      <td>
+        <pre>require 'spec_helper'</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>2</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>3</pre>
+      </td>
+      <td>
+        <pre>describe Comment do</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>4</pre>
+      </td>
+      <td>
+        <pre>    it { should validate_presence_of(:body) }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>5</pre>
+      </td>
+      <td>
+        <pre>    # it { should belong_to(:user) }</pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>6</pre>
       </td>
       <td>
         <pre>end</pre>

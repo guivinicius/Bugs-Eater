@@ -25,4 +25,5 @@ group :test do
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'simplecov', '>= 0.4.0', :require => false
   gem "shoulda-matchers"
+  gem 'mongoid-rspec'
 end
