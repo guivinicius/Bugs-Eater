@@ -3,7 +3,27 @@
 <h3><%= @ticket.name %></h3>
 
 <p><%= @ticket.description %></p>
+<hr/>
 
-<div class="actions">
-  <%= link_to 'Edit', edit_ticket_path(@ticket), :class => "btn" %>
-</div>
+<% if !@ticket.comments.empty? %>
+  <h2>Comments</h2>
+  <% for comment in @ticket.comments %>
+    <h3><%= comment.username %></h3>
+    <p><%= comment.body %></p>
+  <% end %>
+<% end %>
+
+<%= form_for [@ticket, Comment.new] do |f| %>
+  <%= field_set_tag do %>
+    <div class="clearfix">
+      <%= f.label :body, "guivinicius:" %>
+      <div class="input">
+        <%= f.text_area :body, :class => "xxlarge", :rows => 5, :cols => 20  %>
+      </div>
+    </div>
+    <%= hidden_field_tag "body", "guivinicius" %> 
+    <div class="actions">
+      <%= f.submit :class => "btn success" %> or <%= link_to 'Edit ticket', edit_ticket_path(@ticket), :class => "btn" %>
+    </div>
+  <% end %>  
+<% end %>

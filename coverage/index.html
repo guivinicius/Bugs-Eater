@@ -21,7 +21,7 @@
       <img src="./assets/0.4.5/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2011-09-12T21:44:03-03:00">2011-09-12T21:44:03-03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2011-09-12T21:52:21-03:00">2011-09-12T21:52:21-03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -33,8 +33,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>21</b> files in total.
-    <b>122</b> relevant lines. 
-    <span class="green"><b>122</b> lines covered</span> and
+    <b>126</b> relevant lines. 
+    <span class="green"><b>126</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -89,18 +89,18 @@
       <tr>
         <td><a href="#ac30df3bc3694db49962f800439a4f19d75c137a" class="src_link" title="./app/models/comment.rb">./app/models/comment.rb</a></td>
         <td class="green">100.0 %</td>
-        <td>9</td>
-        <td>5</td>
-        <td>5</td>
+        <td>11</td>
+        <td>6</td>
+        <td>6</td>
         <td>0</td>
       </tr>
       
       <tr>
         <td><a href="#abb6c76c38535be523e4a9f6ad76b3f893599832" class="src_link" title="./app/models/ticket.rb">./app/models/ticket.rb</a></td>
         <td class="green">100.0 %</td>
-        <td>10</td>
-        <td>6</td>
-        <td>6</td>
+        <td>12</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
       </tr>
       
@@ -206,18 +206,18 @@
       <tr>
         <td><a href="#0f29ee8f0f9e5a1de22d57033189f940193a5d81" class="src_link" title="./spec/models/comment_spec.rb">./spec/models/comment_spec.rb</a></td>
         <td class="green">100.0 %</td>
-        <td>6</td>
-        <td>3</td>
-        <td>3</td>
+        <td>10</td>
+        <td>4</td>
+        <td>4</td>
         <td>0</td>
       </tr>
       
       <tr>
         <td><a href="#6245c44a7afc395ceda8691053ef16b321a8bf67" class="src_link" title="./spec/models/ticket_spec.rb">./spec/models/ticket_spec.rb</a></td>
         <td class="green">100.0 %</td>
-        <td>9</td>
-        <td>4</td>
-        <td>4</td>
+        <td>12</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
       </tr>
       
@@ -1583,7 +1583,7 @@
         <pre>5</pre>
       </td>
       <td>
-        <pre>  field :body</pre>
+        <pre>  embedded_in :ticket</pre>
       </td>
       <td class="hits">
         1
@@ -1609,7 +1609,7 @@
         <pre>7</pre>
       </td>
       <td>
-        <pre>  validates :body, :presence =&gt; true</pre>
+        <pre>  field :body</pre>
       </td>
       <td class="hits">
         1
@@ -1630,9 +1630,35 @@
     </tr>
   
     
-    <tr class="never" >
+    <tr class="hit" data-hits="1">
       <td class="line_number">
         <pre>9</pre>
+      </td>
+      <td>
+        <pre>  validates :body, :presence =&gt; true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>11</pre>
       </td>
       <td>
         <pre>end</pre>
@@ -1721,20 +1747,7 @@
         <pre>5</pre>
       </td>
       <td>
-        <pre>  field :name</pre>
-      </td>
-      <td class="hits">
-        1
-      </td>
-    </tr>
-  
-    
-    <tr class="hit" data-hits="1">
-      <td class="line_number">
-        <pre>6</pre>
-      </td>
-      <td>
-        <pre>  field :description</pre>
+        <pre>  embeds_many :comments</pre>
       </td>
       <td class="hits">
         1
@@ -1744,7 +1757,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>7</pre>
+        <pre>6</pre>
       </td>
       <td>
         <pre></pre>
@@ -1757,10 +1770,23 @@
     
     <tr class="hit" data-hits="1">
       <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>  field :name</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
         <pre>8</pre>
       </td>
       <td>
-        <pre>  validates :name, :description, :presence =&gt; true</pre>
+        <pre>  field :description</pre>
       </td>
       <td class="hits">
         1
@@ -1773,6 +1799,32 @@
         <pre>9</pre>
       </td>
       <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="1">
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
+        <pre>  validates :name, :description, :presence =&gt; true</pre>
+      </td>
+      <td class="hits">
+        1
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>11</pre>
+      </td>
+      <td>
         <pre>  </pre>
       </td>
       <td class="hits">
@@ -1783,7 +1835,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>10</pre>
+        <pre>12</pre>
       </td>
       <td>
         <pre>end</pre>
@@ -4152,9 +4204,22 @@
     </tr>
   
     
-    <tr class="hit" data-hits="2">
+    <tr class="never" >
       <td class="line_number">
         <pre>4</pre>
+      </td>
+      <td>
+        <pre>  </pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>5</pre>
       </td>
       <td>
         <pre>    it { should validate_presence_of(:body) }</pre>
@@ -4167,7 +4232,46 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>5</pre>
+        <pre>6</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>7</pre>
+      </td>
+      <td>
+        <pre>     it { should be_embedded_in(:ticket) }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
       </td>
       <td>
         <pre>    # it { should belong_to(:user) }</pre>
@@ -4180,7 +4284,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>6</pre>
+        <pre>10</pre>
       </td>
       <td>
         <pre>end</pre>
@@ -4295,6 +4399,45 @@
         <pre>7</pre>
       </td>
       <td>
+        <pre></pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="hit" data-hits="2">
+      <td class="line_number">
+        <pre>8</pre>
+      </td>
+      <td>
+        <pre>  it { should embed_many(:comments) }</pre>
+      </td>
+      <td class="hits">
+        2
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>9</pre>
+      </td>
+      <td>
+        <pre>  </pre>
+      </td>
+      <td class="hits">
+        
+      </td>
+    </tr>
+  
+    
+    <tr class="never" >
+      <td class="line_number">
+        <pre>10</pre>
+      </td>
+      <td>
         <pre>  # it { should belong_to(:user) }</pre>
       </td>
       <td class="hits">
@@ -4305,7 +4448,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>8</pre>
+        <pre>11</pre>
       </td>
       <td>
         <pre></pre>
@@ -4318,7 +4461,7 @@
     
     <tr class="never" >
       <td class="line_number">
-        <pre>9</pre>
+        <pre>12</pre>
       </td>
       <td>
         <pre>end</pre>

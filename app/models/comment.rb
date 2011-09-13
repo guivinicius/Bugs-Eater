@@ -5,7 +5,8 @@ class Comment
   embedded_in :ticket
 
   field :body
+  field :username
 
-  validates :body, :presence => true
+  validates :body, :username, :presence => true
 
 end
