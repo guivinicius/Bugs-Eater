@@ -10,6 +10,8 @@
       </ul>
     </div>
   <% end %>
+    
+    <%= render :partial => 'status', :locals => { :f => f} if controller.action_name == "edit" %>
 
     <div class="clearfix">
       <%= f.label :name %>
