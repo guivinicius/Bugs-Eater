@@ -544,6 +544,14 @@ RSpec:
     - !!null 
     - 1
     - !!null 
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/spec/factories/ticket.rb:
     - 1
@@ -713,19 +721,42 @@ RSpec:
     - !!null 
     - 2
     - !!null 
-    - !!null 
-    - !!null 
     /Users/guivinicius/Code/bugseater/spec/models/ticket_spec.rb:
     - 1
     - !!null 
     - 1
     - !!null 
+    - 1
+    - 6
+    - 6
+    - !!null 
+    - !!null 
     - 2
     - 2
     - !!null 
     - 2
     - !!null 
     - 2
+    - !!null 
+    - 1
+    - !!null 
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
     - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/spec/models/user_spec.rb:
@@ -736,6 +767,18 @@ RSpec:
     - 2
     - !!null 
     - 2
+    - !!null 
+    /Users/guivinicius/Code/bugseater/spec/routing/comments_routing_spec.rb:
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/spec/routing/tickets_routing_spec.rb:
     - 1
@@ -773,4 +816,4 @@ RSpec:
     - !!null 
     - !!null 
     - !!null 
-  :created_at: 2011-09-13 00:29:27.269281000 -03:00
+  :created_at: 2011-09-13 11:32:45.738676000 -03:00
