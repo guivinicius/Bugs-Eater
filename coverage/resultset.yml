@@ -120,6 +120,218 @@ RSpec:
     - !!null 
     - !!null 
     - !!null 
+    /Users/guivinicius/Code/bugseater/config/initializers/devise.rb:
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
     /Users/guivinicius/Code/bugseater/config/initializers/inflections.rb:
     - !!null 
     - !!null 
@@ -170,10 +382,30 @@ RSpec:
     - 1
     - !!null 
     - 1
+    - !!null 
+    - 1
     - 1
     - !!null 
     - !!null 
     - 1
+    - !!null 
+    /Users/guivinicius/Code/bugseater/app/models/user.rb:
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - 1
+    - !!null 
+    - 1
+    - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/app/controllers/application_controller.rb:
     - 1
@@ -183,6 +415,7 @@ RSpec:
     - 1
     - !!null 
     /Users/guivinicius/Code/bugseater/app/controllers/comments_controller.rb:
+    - 1
     - 1
     - !!null 
     - 1
@@ -207,14 +440,17 @@ RSpec:
     - !!null 
     /Users/guivinicius/Code/bugseater/app/controllers/tickets_controller.rb:
     - 1
+    - 1
+    - !!null 
+    - !!null 
     - !!null 
     - !!null 
     - 1
-    - 2
+    - 1
     - !!null 
-    - 2
-    - 2
-    - 2
+    - 1
+    - 1
+    - 1
     - !!null 
     - !!null 
     - !!null 
@@ -290,12 +526,19 @@ RSpec:
     - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/app/models/ticket.rb:
+    - !!null 
+    - !!null 
     - 1
     - 1
     - 1
     - !!null 
     - 1
     - !!null 
+    - 1
+    - !!null 
+    - 1
+    - !!null 
+    - 1
     - 1
     - 1
     - !!null 
@@ -309,10 +552,33 @@ RSpec:
     - 1
     - !!null 
     - !!null 
+    /Users/guivinicius/Code/bugseater/spec/factories/user.rb:
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    /Users/guivinicius/Code/bugseater/spec/support/controller_macros.rb:
+    - 1
+    - !!null 
+    - 1
+    - 2
+    - 17
+    - 17
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
     /Users/guivinicius/Code/bugseater/spec/controllers/tickets_controller_spec.rb:
     - 1
     - !!null 
     - 1
+    - !!null 
+    - 1
+    - !!null 
     - 1
     - 15
     - !!null 
@@ -459,20 +725,17 @@ RSpec:
     - !!null 
     - 2
     - !!null 
+    - 2
     - !!null 
     - !!null 
-    - !!null 
-    /Users/guivinicius/Code/bugseater/spec/requests/tickets_spec.rb:
+    /Users/guivinicius/Code/bugseater/spec/models/user_spec.rb:
     - 1
     - !!null 
     - 1
-    - 1
-    - 1
+    - 2
+    - 2
     - !!null 
-    - 1
-    - 1
-    - !!null 
-    - !!null 
+    - 2
     - !!null 
     /Users/guivinicius/Code/bugseater/spec/routing/tickets_routing_spec.rb:
     - 1
@@ -510,4 +773,4 @@ RSpec:
     - !!null 
     - !!null 
     - !!null 
-  :created_at: 2011-09-12 23:37:17.245930000 -03:00
+  :created_at: 2011-09-13 00:29:27.269281000 -03:00

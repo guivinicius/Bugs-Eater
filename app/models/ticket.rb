@@ -8,6 +8,8 @@ class Ticket
 
   embeds_many :comments
 
+  belongs_to :user
+
   field :name
   field :description
   field :status, :default => "Aberto"

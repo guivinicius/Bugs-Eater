@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+  before_filter :authenticate_user!
 
   def create
     @ticket = Ticket.find(params[:ticket_id])

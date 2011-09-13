@@ -7,6 +7,11 @@ class User
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   
+  field :name
   field :username
+
+  has_many :tickets
+
+  validates :name, :username, :presence => true
 
 end

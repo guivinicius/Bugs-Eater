@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe CommentsController do
+  
+  login_user
 
   describe "POST create" do
 
