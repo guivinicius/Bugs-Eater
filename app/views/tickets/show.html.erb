@@ -6,12 +6,14 @@
 <hr/>
 
 <% if !@ticket.comments.empty? %>
-  <h2>Comments</h2>
+  <h3>Comments</h3>
   <% for comment in @ticket.comments %>
-    <h3><%= comment.username %></h3>
+    <h4><%= comment.username %></h4>
     <p><%= comment.body %></p>
   <% end %>
 <% end %>
+
+<hr/>
 
 <%= form_for [@ticket, Comment.new] do |f| %>
   <%= field_set_tag do %>
@@ -21,7 +23,7 @@
         <%= f.text_area :body, :class => "xxlarge", :rows => 5, :cols => 20  %>
       </div>
     </div>
-    <%= hidden_field_tag "body", "guivinicius" %> 
+    <%= hidden_field_tag "comment[username]", "guivinicius" %> 
     <div class="actions">
       <%= f.submit :class => "btn success" %> or <%= link_to 'Edit ticket', edit_ticket_path(@ticket), :class => "btn" %>
     </div>

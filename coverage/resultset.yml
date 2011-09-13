@@ -170,6 +170,10 @@ RSpec:
     - 1
     - !!null 
     - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
     - !!null 
     /Users/guivinicius/Code/bugseater/app/controllers/application_controller.rb:
     - 1
@@ -178,8 +182,28 @@ RSpec:
     /Users/guivinicius/Code/bugseater/app/helpers/application_helper.rb:
     - 1
     - !!null 
-    /Users/guivinicius/Code/bugseater/app/helpers/tickets_helper.rb:
+    /Users/guivinicius/Code/bugseater/app/controllers/comments_controller.rb:
     - 1
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    /Users/guivinicius/Code/bugseater/app/models/comment.rb:
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - 1
+    - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/app/controllers/tickets_controller.rb:
     - 1
@@ -278,16 +302,139 @@ RSpec:
     - 1
     - !!null 
     - !!null 
-    /Users/guivinicius/Code/bugseater/app/models/comment.rb:
+    /Users/guivinicius/Code/bugseater/spec/factories/ticket.rb:
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    /Users/guivinicius/Code/bugseater/spec/controllers/tickets_controller_spec.rb:
+    - 1
+    - !!null 
+    - 1
+    - 1
+    - 15
+    - !!null 
+    - !!null 
+    - 1
+    - 1
     - 1
     - 1
     - 1
     - !!null 
-    - 1
+    - !!null 
     - !!null 
     - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
     - !!null 
     - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
+    - !!null 
+    - 1
+    - 1
+    - 1
+    - 1
+    - !!null 
+    - !!null 
     - !!null 
     - !!null 
     /Users/guivinicius/Code/bugseater/spec/models/comment_spec.rb:
@@ -295,6 +442,7 @@ RSpec:
     - !!null 
     - 1
     - !!null 
+    - 2
     - 2
     - !!null 
     - 2
@@ -362,4 +510,4 @@ RSpec:
     - !!null 
     - !!null 
     - !!null 
-  :created_at: 2011-09-12 21:52:20.687390000 -03:00
+  :created_at: 2011-09-12 23:37:17.245930000 -03:00
