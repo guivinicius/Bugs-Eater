@@ -1,11 +1,11 @@
 require 'spec_helper'
 
 describe TicketsController do
-  
+
   login_user
 
   def valid_attributes
-    { :name => "BUG maligno do IE6", :description => "O maior bug do mundo e o proprio IE." }
+    { :name => "BUG maligno do IE6", :description => "O maior bug do mundo e o proprio IE." , :status => "Aberto", :user => @user }
   end
 
   describe "GET index" do
