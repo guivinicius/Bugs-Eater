@@ -18,7 +18,12 @@
       </div>
     </div>    
 
-    <%= render :partial => 'status', :locals => { :f => f} %>
+    <div class="clearfix">
+      <%= f.label :status %>
+      <div class="input">
+        <%= f.select :status, Ticket::STATUS.collect{|j| [j.humanize, j]} %>
+      </div>
+    </div>
 
     <div class="clearfix">
       <%= f.label :name %>
