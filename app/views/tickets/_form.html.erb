@@ -11,6 +11,13 @@
     </div>
   <% end %>
     
+    <div class="clearfix">
+      <%= f.label :user, "Responsible" %>
+      <div class="input">
+        <%= f.select :user, User.all.collect {|u| [u.username, u.id]} %>    
+      </div>
+    </div>    
+
     <%= render :partial => 'status', :locals => { :f => f} if controller.action_name == "edit" %>
 
     <div class="clearfix">

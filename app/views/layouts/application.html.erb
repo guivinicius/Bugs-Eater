@@ -8,19 +8,7 @@
 </head>
 <body style="padding-top: 40px;">
   
-  <div class="topbar-wrapper" style="z-index: 5;">
-    <div class="topbar">
-      <div class="topbar-inner">
-        <div class="container">
-          <h3><a href="/">BUGs Eater</a></h3>
-          <ul class="nav">
-            <li><%= link_to "Tickets", root_path %></li>
-          </ul>
-          <%=  render "shared/user_menu" %>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%= render :partial => "shared/top_bar" if user_signed_in? %>
 
   <div class="container">
     <%= yield %>
