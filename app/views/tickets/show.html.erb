@@ -1,15 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @ticket.name %>
-</p>
+<h3><%= @ticket.name %></h3>
 
-<p>
-  <b>Description:</b>
-  <%= @ticket.description %>
-</p>
+<p><%= @ticket.description %></p>
 
-
-<%= link_to 'Edit', edit_ticket_path(@ticket) %> |
-<%= link_to 'Back', tickets_path %>
+<div class="actions">
+  <%= link_to 'Edit', edit_ticket_path(@ticket), :class => "btn" %>
+</div>
