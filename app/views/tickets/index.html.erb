@@ -2,20 +2,16 @@
   <tr>
     <th>Status</th>
     <th>Name</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
+    <th>Responsible</th>
     <th></th>
   </tr>
 
 <% @tickets.each do |ticket| %>
   <tr>
     <td><%= ticket.status %></td>
-    <td><%= ticket.name %></td>
-    <td><%= truncate(ticket.description) %></td>
-    <td><%= link_to 'Show', ticket %></td>
-    <td><%= link_to 'Edit', edit_ticket_path(ticket) %></td>
-    <td><%= link_to 'Destroy', ticket, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to ticket.name, ticket %></td>
+    <td><%= ticket.user.name %></td>
+    <td><%= link_to 'Edit', edit_ticket_path(ticket) if ticket.user.username == current_user.username %></td>
   </tr>
 <% end %>
 </table>

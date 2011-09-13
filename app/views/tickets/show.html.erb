@@ -18,14 +18,19 @@
 <%= form_for [@ticket, Comment.new] do |f| %>
   <%= field_set_tag do %>
     <div class="clearfix">
-      <%= f.label :body, "guivinicius:" %>
+      <%= f.label :body, "#{current_user.username}:" %>
       <div class="input">
         <%= f.text_area :body, :class => "xxlarge", :rows => 5, :cols => 20  %>
       </div>
     </div>
-    <%= hidden_field_tag "comment[username]", "guivinicius" %> 
+    <%= hidden_field_tag "comment[username]", current_user.username %> 
     <div class="actions">
-      <%= f.submit :class => "btn success" %> or <%= link_to 'Edit ticket', edit_ticket_path(@ticket), :class => "btn" %>
+      <%= f.submit :class => "btn success" %>
+
+      <% if @ticket.responsible_username == current_user.username %> 
+        or <%= link_to 'Edit ticket', edit_ticket_path(@ticket), :class => "btn"  %>
+      <% end %>
+      
     </div>
   <% end %>  
 <% end %>

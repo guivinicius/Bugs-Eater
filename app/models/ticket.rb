@@ -15,5 +15,13 @@ class Ticket
   field :status, :default => "Aberto"
 
   validates :name, :description, :presence => true
+
+  def responsible
+    self.user.name 
+  end
+
+  def responsible_username
+    self.user.username
+  end
   
 end
